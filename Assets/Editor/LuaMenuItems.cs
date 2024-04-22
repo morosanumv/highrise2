@@ -71,20 +71,24 @@ namespace Highrise.Studio.Generated
             Undo.RecordObjects(parents, "Add Lua");
         }
 
+        [MenuItem("Component/Lua/Destroy Player At Touch")]
+        private static void AddComponent1() => AddScript("Assets/Lua Scripts/DestroyPlayerAtTouch.lua");
+        [MenuItem("Component/Lua/Rotate Horizontal")]
+        private static void AddComponent2() => AddScript("Assets/Lua Scripts/RotateHorizontal.lua");
         [MenuItem("Component/Lua/Touchdetector")]
-        private static void AddComponent1() => AddScript("Assets/Lua Scripts/touchdetector.lua");
+        private static void AddComponent3() => AddScript("Assets/Lua Scripts/touchdetector.lua");
         [MenuItem("Component/Lua/Trigger At Enter And Destroy")]
-        private static void AddComponent2() => AddScript("Assets/Lua Scripts/TriggerAtEnterAndDestroy.lua");
+        private static void AddComponent4() => AddScript("Assets/Lua Scripts/TriggerAtEnterAndDestroy.lua");
         [MenuItem("Component/Lua/Anchor Old")]
-        private static void AddComponent3() => AddScript("Packages/com.pz.studio/Runtime/Lua/AnchorOld.lua");
+        private static void AddComponent5() => AddScript("Packages/com.pz.studio/Runtime/Lua/AnchorOld.lua");
         [MenuItem("Component/Lua/General Chat")]
-        private static void AddComponent4() => AddScript("Packages/com.pz.studio/Runtime/Lua/GeneralChat.lua");
+        private static void AddComponent6() => AddScript("Packages/com.pz.studio/Runtime/Lua/GeneralChat.lua");
         [MenuItem("Component/Lua/Highrise Camera Controller")]
-        private static void AddComponent5() => AddScript("Packages/com.pz.studio/Runtime/Lua/HighriseCameraController.lua");
+        private static void AddComponent7() => AddScript("Packages/com.pz.studio/Runtime/Lua/HighriseCameraController.lua");
         [MenuItem("Component/Lua/RTS Camera")]
-        private static void AddComponent6() => AddScript("Packages/com.pz.studio/Runtime/Lua/RTSCamera.lua");
+        private static void AddComponent8() => AddScript("Packages/com.pz.studio/Runtime/Lua/RTSCamera.lua");
         [MenuItem("Component/Lua/Scene Loader")]
-        private static void AddComponent7() => AddScript("Packages/com.pz.studio/Runtime/Lua/SceneLoader.lua");
+        private static void AddComponent9() => AddScript("Packages/com.pz.studio/Runtime/Lua/SceneLoader.lua");
 
     }
 }
