@@ -1,11 +1,11 @@
 --!SerializeField
 local objectToDestroy: GameObject=nil
 --!SerializeField
-local Camera : GameObject = nil
+--local Camera : GameObject = nil
 
-local CamScript:Camera=nil;
+--local CamScript:Camera=nil;
 function self:ClientStart()
-     CamScript = Camera:GetComponent("CameraController")
+     --CamScript = Camera:GetComponent("CameraController")
 end
 function self:OnTriggerEnter(other : Collider)
     local enteringGameObject = other.gameObject

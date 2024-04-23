@@ -7,6 +7,7 @@ function self:OnTriggerEnter(other : Collider)
     print(enteringGameObject.name .. " has entered the trigger")
     Object.Destroy(objectToDestroy)
     
+    
 end
 
 function self:Update()
