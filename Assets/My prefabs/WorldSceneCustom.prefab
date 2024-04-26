@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1999628579082987652}
-  - component: {fileID: 462570339516003858}
-  - component: {fileID: 7712596770746647493}
+  - component: {fileID: -516883249346326129}
+  - component: {fileID: -7276616336205745272}
   m_Layer: 0
   m_Name: WorldSceneCustom
   m_TagString: Untagged
@@ -33,7 +33,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &462570339516003858
+--- !u!114 &-516883249346326129
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,7 +42,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8457444051872364791}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -173044334, guid: 5e99434f214126023bd8db55a8296c39, type: 3}
+  m_Script: {fileID: -518696070, guid: 991a4badf00d28384a32b2c089782f03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _networkId: 0
@@ -51,44 +51,55 @@ MonoBehaviour:
   - Property: {fileID: -6388145239457764025, guid: f301225243efa27479ec38fb4dd5ffab,
       type: 3}
     Value:
-      rid: 7888600671614402567
+      rid: 6733473559363977515
   - Property: {fileID: -5508206028346320178, guid: f301225243efa27479ec38fb4dd5ffab,
       type: 3}
     Value:
-      rid: 7888600671614402568
+      rid: 6733473559363977516
   - Property: {fileID: -2601491295754733624, guid: f301225243efa27479ec38fb4dd5ffab,
       type: 3}
     Value:
-      rid: 7888600671614402569
+      rid: 6733473559363977517
   - Property: {fileID: 1971311750349719238, guid: f301225243efa27479ec38fb4dd5ffab,
       type: 3}
     Value:
-      rid: 7888600671614402570
+      rid: 6733473559363977518
+  _uiOutput: 0
+  _uiOutputSettings:
+    rid: -2
+  m_movementIndicator: {fileID: 7025435918243807456, guid: 5dfae8e2eae84f140b64b0e4cfcbcfe8,
+    type: 3}
+  m_longPressSound: {fileID: 11400000, guid: 25625e178d869405c92bfc4024612fb9, type: 2}
+  m_footstepWalkSound: {fileID: 11400000, guid: 06f9d1665c501494cab2fabb8d9c0d4e,
+    type: 2}
+  m_footstepRunSound: {fileID: 11400000, guid: 264793f51d6488647abe8a49a72e9487, type: 2}
   references:
     version: 2
     RefIds:
-    - rid: 7888600671614402567
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 6733473559363977515
       type: {class: GameObjectGlue/GameObjectLuaPropertyValue, ns: Highrise.Lua.Glue,
         asm: com.pz.highrise.lua.glue}
       data:
         _value: {fileID: 7025435918243807456, guid: 5dfae8e2eae84f140b64b0e4cfcbcfe8,
           type: 3}
-    - rid: 7888600671614402568
+    - rid: 6733473559363977516
       type: {class: AudioShaderGlue/AudioShaderLuaPropertyValue, ns: Highrise.Lua.Glue,
         asm: com.pz.highrise.lua.glue}
       data:
         _value: {fileID: 11400000, guid: 25625e178d869405c92bfc4024612fb9, type: 2}
-    - rid: 7888600671614402569
+    - rid: 6733473559363977517
       type: {class: AudioShaderGlue/AudioShaderLuaPropertyValue, ns: Highrise.Lua.Glue,
         asm: com.pz.highrise.lua.glue}
       data:
         _value: {fileID: 11400000, guid: 06f9d1665c501494cab2fabb8d9c0d4e, type: 2}
-    - rid: 7888600671614402570
+    - rid: 6733473559363977518
       type: {class: AudioShaderGlue/AudioShaderLuaPropertyValue, ns: Highrise.Lua.Glue,
         asm: com.pz.highrise.lua.glue}
       data:
         _value: {fileID: 11400000, guid: 264793f51d6488647abe8a49a72e9487, type: 2}
---- !u!114 &7712596770746647493
+--- !u!114 &-7276616336205745272
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,7 +108,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8457444051872364791}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -173044334, guid: 5e99434f214126023bd8db55a8296c39, type: 3}
+  m_Script: {fileID: -1450553937, guid: 991a4badf00d28384a32b2c089782f03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _networkId: 0
@@ -106,11 +117,18 @@ MonoBehaviour:
   - Property: {fileID: -2695117827799385001, guid: 88de721fb90843944b4f498ca102c1b3,
       type: 3}
     Value:
-      rid: 7888600671614402571
+      rid: 6733473559363977519
+  _uiOutput: 0
+  _uiOutputSettings:
+    rid: -2
+  m_characterPrefab: {fileID: 3123393570936088168, guid: 2965097444cd19e46a6f69dc6cb46205,
+    type: 3}
   references:
     version: 2
     RefIds:
-    - rid: 7888600671614402571
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 6733473559363977519
       type: {class: GameObjectGlue/GameObjectLuaPropertyValue, ns: Highrise.Lua.Glue,
         asm: com.pz.highrise.lua.glue}
       data:

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2490449311347049844}
   - component: {fileID: 9042360220161564399}
   - component: {fileID: 7591519048576866464}
-  - component: {fileID: 9131725325039858643}
+  - component: {fileID: 1260382226885728306}
   m_Layer: 0
   m_Name: StaticSpikes
   m_TagString: Untagged
@@ -106,7 +106,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &9131725325039858643
+--- !u!114 &1260382226885728306
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7670564642779696743}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -173044334, guid: 5e99434f214126023bd8db55a8296c39, type: 3}
+  m_Script: {fileID: 1511114311, guid: 991a4badf00d28384a32b2c089782f03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _networkId: 0
@@ -124,21 +124,29 @@ MonoBehaviour:
   - Property: {fileID: -7874597520387157338, guid: d599e609eda41264c9a162774b9a82ff,
       type: 3}
     Value:
-      rid: 6733473490941771776
-  - Property: {fileID: -4036038546513685777, guid: d599e609eda41264c9a162774b9a82ff,
+      rid: 6733473557633302583
+  - Property: {fileID: -7198863862474390680, guid: d599e609eda41264c9a162774b9a82ff,
       type: 3}
     Value:
-      rid: 6733473490941771777
+      rid: 6733473557633302584
+  _uiOutput: 0
+  _uiOutputSettings:
+    rid: -2
+  m_objectToDestroy: {fileID: 3123393570936088168, guid: 257a642d7e8bdee4fb0dd92a56ff9b1b,
+    type: 3}
+  m_DummyObject: {fileID: 0}
   references:
     version: 2
     RefIds:
-    - rid: 6733473490941771776
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 6733473557633302583
       type: {class: GameObjectGlue/GameObjectLuaPropertyValue, ns: Highrise.Lua.Glue,
         asm: com.pz.highrise.lua.glue}
       data:
         _value: {fileID: 3123393570936088168, guid: 257a642d7e8bdee4fb0dd92a56ff9b1b,
           type: 3}
-    - rid: 6733473490941771777
+    - rid: 6733473557633302584
       type: {class: GameObjectGlue/GameObjectLuaPropertyValue, ns: Highrise.Lua.Glue,
         asm: com.pz.highrise.lua.glue}
       data:

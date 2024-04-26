@@ -1,6 +1,8 @@
 --!SerializeField
 local objectToDestroy: GameObject=nil
 --!SerializeField
+local DummyObject: GameObject=nil
+--!SerializeField
 --local Camera : GameObject = nil
 
 --local CamScript:Camera=nil;
@@ -13,7 +15,9 @@ function self:OnTriggerEnter(other : Collider)
     print(enteringGameObject.name .. " has entered the trigger")
     --CamScript.cen
     --Object.Destroy(objectToDestroy)
-    enteringGameObject.transform.position= Vector3.new(0,0,0);
+    --enteringGameObject.transform.position= Vector3.new(0,0,0);
+
+    enteringGameObject.transform.position= DummyObject.transform.position;
     --enteringGameObject.GetComponent(self,)
     --enteringGameObject.GetComponent(n)
     --CamScript.CenterOn(.pos)
